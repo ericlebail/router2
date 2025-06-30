@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: TASK-128.yaml
+      relativeToChangelogFile: true

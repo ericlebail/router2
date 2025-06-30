@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: TASK-128
+      author: Mateusz Rasinski
+      changes:
+        - sqlFile:
+            path: TASK-128.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: traffic-simulation
+      author: Application users
+      changes:
+        - sqlFile:
+            path: traffic-simulation.sql
+            relativeToChangelogFile: true
